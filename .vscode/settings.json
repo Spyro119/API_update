@@ -1,0 +1,6 @@
+{
+    "git.ignoreLimitWarning": true,
+    "appService.preDeployTask": "publish-release",
+    "appService.deploySubpath": "publish",
+    "appService.defaultWebAppToDeploy": ""
+}
