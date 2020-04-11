@@ -63,7 +63,7 @@ namespace RocketElevatorsApi.Controllers
         // // PUT: api/interventions/id
         // // To protect from overposting attacks, please enable the specific properties you want to bind to, for
         // // more details see https://aka.ms/RazorPagesCRUD.
-        [HttpPut("{id}")]
+        [HttpPut("{id}/update1")]
         public async Task<IActionResult> Putinterventions(long id, interventions interventions)
         {
             
@@ -72,7 +72,7 @@ namespace RocketElevatorsApi.Controllers
             {
                 return BadRequest();
             }
-            // else if (interventions.start_datetime.HasValue == true && interventions.end_datetime.HasValue == true)
+            // else if (interventions.start_datetime.HasValue != true && interventions.end_datetime.HasValue == true)
             // {
             //      return BadRequest();
             // }
@@ -97,6 +97,22 @@ namespace RocketElevatorsApi.Controllers
 
             return NoContent();
         }
+//          Patch update, to update only specific rows.
+    //     [HttpPatch("{id}")]
+    //     public async Task<ActionResult<interventions>> PatchinterventionsRequest([FromBody] PatchInterventionsRequest request)
+    //     {
+    //         var interventions = await _context.interventions.FindAsync();
+    //         var interventionsList = interventions.FirstOrDefault(c => c.Id == request.Id);
+    //     if( interventions == null)
+    //         return NotFound();
+    //     else
+    //     {
+    //         interventions.status = request.status;
+    //         interventions.start_datetime = request.start_datetime;
+    //     }
+    //     return Ok();
+    // }
+
 
         // // POST: api/interventions
         // // To protect from overposting attacks, please enable the specific properties you want to bind to, for

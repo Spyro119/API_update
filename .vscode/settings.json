@@ -1,6 +1,4 @@
 {
-    "git.ignoreLimitWarning": true,
-    "appService.preDeployTask": "publish-release",
-    "appService.deploySubpath": "publish",
-    "appService.defaultWebAppToDeploy": ""
+    "appService.defaultWebAppToDeploy": "/subscriptions/eff2e35a-9b12-41b9-8d50-55118e56bab5/resourceGroups/appsvc_windows_centralus/providers/Microsoft.Web/sites/rocketelevatorsrestapisjb",
+    "appService.deploySubpath": "publish"
 }
