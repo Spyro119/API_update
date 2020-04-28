@@ -16,6 +16,7 @@ namespace TodoApi.Models
         public DbSet<columns> columns { get; set; }
         public DbSet<leads> leads { get; set; }
         public DbSet<customers> customers { get; set; }
+        public DbSet<quotes> quotes { get; set; }
 
         
     }
