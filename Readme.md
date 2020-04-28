@@ -1,12 +1,18 @@
 #Readme.md 
 
-To filter unique cities ; https://rocketelevatorsrestapisjb.azurewebsites.net/api/addresses/city
+To filter unique cities ; https://rocketelevatorsrestapisj.azurewebsites.net/api/addresses/city
 
-To fetch all buildings :  https://rocketelevatorsrestapisjb.azurewebsites.net/api/buildings
-building by customers : https://rocketelevatorsrestapisjb.azurewebsites.net/api/buildings/AlexaBuildings/{customer_id}
+To fetch all buildings :  https://rocketelevatorsrestapisj.azurewebsites.net/api/buildings
+building by customers : https://rocketelevatorsrestapisj.azurewebsites.net/api/buildings/AlexaBuildings/{customer_id}
 
-To fetch customers : https://rocketelevatorsrestapisjb.azurewebsites.net/api/customer 
-unique customers : https://rocketelevatorsrestapisjb.azurewebsites.net/api/customer/id
+To fetch customers : https://rocketelevatorsrestapisj.azurewebsites.net/api/customer 
+unique customers : https://rocketelevatorsrestapisj.azurewebsites.net/api/customer/id
+
+To fetch quotes : https://rocketelevatorsrestapisj.azurewebsites.net/api/quotes
+Not yet customers :  https://rocketelevatorsrestapisj.azurewebsites.net/api/quotes/notyetcustomer
+Number of quotes : https://rocketelevatorsrestapisj.azurewebsites.net/api/quotes/total
+
+To fetch batteries : https://rocketelevatorsrestapisj.azurewebsites.net/api/batteries
 
 
 
