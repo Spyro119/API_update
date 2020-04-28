@@ -58,6 +58,15 @@ namespace RocketElevatorsApi.Controllers
            return leadNotBeingCustomer;
         }
 
+        //Action that givrs the total number of leads
+        // GET: api/leads/total
+        [HttpGet("total")]
+        public ActionResult TotalLeads(long id)
+        {
+            var TotalNumberOfLeads = _context.leads.Count();         
+           return Ok(TotalNumberOfLeads);
+        }
+
         // // PUT: api/Leads/id
         // // To protect from overposting attacks, please enable the specific properties you want to bind to, for
         // // more details see https://aka.ms/RazorPagesCRUD.
