@@ -5,3 +5,8 @@
 /appsettings.json
 /obj
 /publish
+/bin
+# .vscode from REST API project
+.vscode/
+.vscode/tasks.json
+.vscode/launch.json
