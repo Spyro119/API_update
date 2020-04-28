@@ -6,7 +6,7 @@ To fetch all buildings :  https://rocketelevatorsrestapisj.azurewebsites.net/api
 building by customers : https://rocketelevatorsrestapisj.azurewebsites.net/api/buildings/AlexaBuildings/{customer_id}
 
 To fetch customers : https://rocketelevatorsrestapisj.azurewebsites.net/api/customer 
-unique customers : https://rocketelevatorsrestapisj.azurewebsites.net/api/customer/id
+unique customers : https://rocketelevatorsrestapisj.azurewebsites.net/api/customer/{{id}}
 
 To fetch quotes : https://rocketelevatorsrestapisj.azurewebsites.net/api/quotes
 Not yet customers :  https://rocketelevatorsrestapisj.azurewebsites.net/api/quotes/notyetcustomer
