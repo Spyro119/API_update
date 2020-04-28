@@ -28,6 +28,27 @@ namespace RocketElevatorsApi.Controllers
         {
             return await _context.batteries.ToListAsync();
         }
+
+
+       [HttpGet("AlexaBuildings/{customer_id}")]
+        public async Task<ActionResult<IEnumerable<buildings>>> GetbuildingList(long customer_id)
+        {
+         
+            
+             var building = await (from buildings in _context.buildings where buildings.customer_id == customer_id
+                            // join customers in _context.customers on buildings.customer_id equals customers.Id
+                            // join battery in _context.batteries on buildings.battery_id equals battery.Id
+                            // join ele in _context.elevators on col.Id equals ele.column_id
+                            // where ele.elevator_status == "Intervention" || col.column_status == "Intervention" || bat.battery_status == "Intervention"
+                            select buildings).Distinct().ToListAsync();
+                  
+            if (building == null)
+            {
+                return NotFound();
+            }
+
+            return building;
+        }
         
         // Action that gives the list of buildings
         // GET: api/buildings/listofbuildings

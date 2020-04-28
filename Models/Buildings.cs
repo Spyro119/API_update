@@ -7,6 +7,7 @@ public class buildings
     public string building_administrator_full_name { get; set; }
      public string building_administrator_phone { get; set; }
     public long customer_id { get; set; }
+    public long battery_id { get; set; }
     
 
      //public ICollection<batteries> batteries { get; set; }

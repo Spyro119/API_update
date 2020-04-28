@@ -9,6 +9,7 @@ namespace TodoApi.Models
         {
         }
 
+        public DbSet<addresses> addresses { get; set; }
         public DbSet<interventions> interventions { get; set; }
         public DbSet<batteries> batteries { get; set; }
         public DbSet<buildings> buildings { get; set; }

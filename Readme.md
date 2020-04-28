@@ -1,5 +1,18 @@
 #Readme.md 
 
+To filter unique cities ; https://rocketelevatorsrestapisjb.azurewebsites.net/api/addresses/city
+
+To fetch all buildings :  https://rocketelevatorsrestapisjb.azurewebsites.net/api/buildings
+building by customers : https://rocketelevatorsrestapisjb.azurewebsites.net/api/buildings/AlexaBuildings/{customer_id}
+
+To fetch customers : https://rocketelevatorsrestapisjb.azurewebsites.net/api/customer 
+unique customers : https://rocketelevatorsrestapisjb.azurewebsites.net/api/customer/id
+
+
+
+
+
+=================================================================================================================================
 For my API, there are the get methods links : 
 To fetch all interventions : 
 GET https://rocketelevatorsrestapisjb.azurewebsites.net/api/interventions/
