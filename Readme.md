@@ -14,7 +14,11 @@ Number of quotes : https://rocketelevatorsrestapisj.azurewebsites.net/api/quotes
 
 To fetch batteries : https://rocketelevatorsrestapisj.azurewebsites.net/api/batteries
 
+to fetch elevators :  https://rocketelevatorsrestapisj.azurewebsites.net/api/elevators
+ inactive elevators : https://rocketelevatorsrestapisj.azurewebsites.net/api/elevators/inactiveelevators
 
+To fetch leads : https://rocketelevatorsrestapisj.azurewebsites.net/api/leads/
+total number of leads : https://rocketelevatorsrestapisj.azurewebsites.net/api/leads/total
 
 
 
