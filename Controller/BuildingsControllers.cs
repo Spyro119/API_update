@@ -24,9 +24,9 @@ namespace RocketElevatorsApi.Controllers
 
         
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<batteries>>> Getbatteries()
+        public async Task<ActionResult<IEnumerable<buildings>>> Getbuidings()
         {
-            return await _context.batteries.ToListAsync();
+            return await _context.buildings.ToListAsync();
         }
 
 

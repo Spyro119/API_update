@@ -1,15 +1,14 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-public class employee
+public class employees
 {
     public long Id { get; set; }
-    public string author { get; set; }
-    public customers customer_id { get; set; }
-    public List<buildings> building_id { get; set; }
-    public List<batteries> battery_id { get; set; }
-
-     public string building_administrator_phone { get; set; }
+    public string firstname { get; set; }
+    public string lastname { get; set; }
+    public string function { get; set; }
+    public string email { get; set; }
+    public string AiProfile { get; set; }
     // public long  { get; set; }
     
 

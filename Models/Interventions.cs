@@ -16,7 +16,4 @@ public class interventions
     public string status { get; set; }
      public string report { get; set; }
     
-
-     //public ICollection<batteries> batteries { get; set; }
-
 }
