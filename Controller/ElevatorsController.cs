@@ -110,17 +110,17 @@ namespace RocketElevatorsApi.Controllers
             return NoContent();
         }
 
-        // // POST: api/elevators
-        // // To protect from overposting attacks, please enable the specific properties you want to bind to, for
-        // // more details see https://aka.ms/RazorPagesCRUD.
-        // [HttpPost]
-        // public async Task<ActionResult<elevators>> Postelevators(elevators elevators)
-        // {
-        //     _context.elevators.Add(elevators);
-        //     await _context.SaveChangesAsync();
+        //  POST: api/elevators
+        //  To protect from overposting attacks, please enable the specific properties you want to bind to, for
+        //  more details see https://aka.ms/RazorPagesCRUD.
+         [HttpPost]
+         public async Task<ActionResult<elevators>> Postelevators(elevators elevators)
+         {
+             _context.elevators.Add(elevators);
+             await _context.SaveChangesAsync();
 
-        //     return CreatedAtAction("Getelevators", new { id = elevators.Id }, elevators);
-        // }
+             return CreatedAtAction("Getelevators", new { id = elevators.Id }, elevators);
+         }
 
         // // DELETE: api/elevators/5
         // [HttpDelete("{id}")]

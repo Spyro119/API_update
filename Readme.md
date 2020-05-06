@@ -6,10 +6,20 @@ To fetch all buildings :  https://rocketelevatorsrestapisj.azurewebsites.net/api
 building by customers : https://rocketelevatorsrestapisj.azurewebsites.net/api/buildings/AlexaBuildings/{customer_id}
 
 To fetch customers : https://rocketelevatorsrestapisj.azurewebsites.net/api/customer 
-unique customers : https://rocketelevatorsrestapisj.azurewebsites.net/api/customer/id
+unique customers : https://rocketelevatorsrestapisj.azurewebsites.net/api/customer/{{id}}
 
-To fetch employees : https://rocketelevatorsrestapisj.azurewebsites.net/api/employees/
-All Employees with an Ai profile for identification : https://rocketelevatorsrestapisj.azurewebsites.net/api/employees/profiles
+To fetch quotes : https://rocketelevatorsrestapisj.azurewebsites.net/api/quotes
+Not yet customers :  https://rocketelevatorsrestapisj.azurewebsites.net/api/quotes/notyetcustomer
+Number of quotes : https://rocketelevatorsrestapisj.azurewebsites.net/api/quotes/total
+
+To fetch batteries : https://rocketelevatorsrestapisj.azurewebsites.net/api/batteries
+
+to fetch elevators :  https://rocketelevatorsrestapisj.azurewebsites.net/api/elevators
+ inactive elevators : https://rocketelevatorsrestapisj.azurewebsites.net/api/elevators/inactiveelevators
+ Status : https://rocketelevatorsrestapisj.azurewebsites.net/api/elevators/{id}/status
+
+To fetch leads : https://rocketelevatorsrestapisj.azurewebsites.net/api/leads/
+total number of leads : https://rocketelevatorsrestapisj.azurewebsites.net/api/leads/total
 
 All Employees whitout AI profile : https://rocketelevatorsrestapisj.azurewebsites.net/api/employees/profile/null
 Employees search by AI profile : https://rocketelevatorsrestapisj.azurewebsites.net/api/employees/profile/<identificationProfileId From Speaker recognition API results>
